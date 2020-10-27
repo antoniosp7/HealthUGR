@@ -10,6 +10,9 @@ Como no contaba con experiencia previa con Scala, he tenido que investigar que t
 
 Al igual que con la base de datos para saber que tecnología puedo usar para la realización de la API encargada de las comunicaciones entre los microservicios he tenido que investigar que posibilidades tengo, [en esta página](https://nordicapis.com/8-frameworks-to-build-a-web-api-in-scala/) se muestran las tecnologías mas usadas. Indagando en el framework Play vi que es posible la realización de este tipo de APIs e incluso he visto ciertos proyectos con arquitectura basada en microservicios que lo usan, por eso a día de hoy he decidido su utilización.
 
+## Herramienta de construcción y gestor de dependencias
+
+Para este campo he escogido usar la herramienta sbt la cual hemos visto de una manera ligera durante un ejercicio de autoevaluación de la asignatura.
 
 ## Integración Continua
 
