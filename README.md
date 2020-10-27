@@ -21,6 +21,7 @@ Si adaptamos esta arquitectura a nuestro problema nos quedaría dividido en dos 
 - [Milestone 1](https://github.com/antoniosp7/Proyecto-CC/milestone/2)
   - [Mover README antiguo a archivo específico](https://github.com/antoniosp7/Proyecto-CC/issues/6)
   - [Crear documentación sobre herramientas](https://github.com/antoniosp7/Proyecto-CC/issues/12)
+  - [Crear cc.yaml](https://github.com/antoniosp7/Proyecto-CC/issues/14)
   
 - [System management](https://github.com/antoniosp7/Proyecto-CC/milestone/5)
   

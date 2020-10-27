@@ -1,0 +1,6 @@
+entidad:
+  - src/Exercise.scala
+  - src/Food.scala
+  - src/Record.scala
+  - src/User.scala
+
