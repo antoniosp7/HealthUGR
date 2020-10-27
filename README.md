@@ -24,18 +24,25 @@ Si adaptamos esta arquitectura a nuestro problema nos quedaría dividido en dos 
   - [Crear cc.yaml](https://github.com/antoniosp7/Proyecto-CC/issues/14)
   
 - [System management](https://github.com/antoniosp7/Proyecto-CC/milestone/5)
+  - [[HU6] Crear perfil](https://github.com/antoniosp7/Proyecto-CC/issues/15)
+  - [[HU8] Borrar mi cuenta.](https://github.com/antoniosp7/Proyecto-CC/issues/17)
   
   
 - [Food management](https://github.com/antoniosp7/Proyecto-CC/milestone/3)
   - [[HU1] Añadir nueva comida al sistema](https://github.com/antoniosp7/Proyecto-CC/issues/7)
+  - [[HU3] Ver el registro diario de nutrientes.](https://github.com/antoniosp7/Proyecto-CC/issues/9)
   - [[HU5] Registrar comida ingerida](https://github.com/antoniosp7/Proyecto-CC/issues/11)
+  - [[HU9] Solicitar una nueva comida](https://github.com/antoniosp7/Proyecto-CC/issues/18)
+  - [[HU11] Aceptar una petición de nueva comida](https://github.com/antoniosp7/Proyecto-CC/issues/20)
+  - [[HU13] Denegar una solicitud de nueva comida](https://github.com/antoniosp7/Proyecto-CC/issues/22)
  
 - [Exercise management](https://github.com/antoniosp7/Proyecto-CC/milestone/4)
-  - [[HU2] Añadir nuevo ejercicio al sistema.](https://github.com/antoniosp7/Proyecto-CC/issues/8)In this issue the definition of the architecture in the README of the project will be carried out
-
-  - [[HU3] Ver el registro diario de nutrientes.](https://github.com/antoniosp7/Proyecto-CC/issues/9)
-
+  - [[HU2] Añadir nuevo ejercicio al sistema.](https://github.com/antoniosp7/Proyecto-CC/issues/8)
   - [[HU4] Ver registro diario de ejercicio.](https://github.com/antoniosp7/Proyecto-CC/issues/10)
+   - [[HU7] Registrar ejercicio realizado.](https://github.com/antoniosp7/Proyecto-CC/issues/16)
+   - [[HU10] Solicitar un nuevo ejercicio.](https://github.com/antoniosp7/Proyecto-CC/issues/19)
+   - [[HU12] Aceptar una petición de nuevo ejercicio](https://github.com/antoniosp7/Proyecto-CC/issues/21)
+   - [[HU14] Denegar una petición de nuevo ejercicio](https://github.com/antoniosp7/Proyecto-CC/issues/23)
   
 
 
