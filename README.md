@@ -67,6 +67,10 @@ Si adaptamos esta arquitectura a nuestro problema nos quedaría dividido en dos 
     - Calorías consumidas
     - Calorías gastadas
 
+En la siguiente imagen se muestra el resultado de ejecutar el compilado del código con la herramienta sbt.
+
+![](https://raw.githubusercontent.com/antoniosp7/HealthUGR/master/docs/images/SBTCompile.png)
+
   ## Documentos aparte
 
   - [Herramientas del proyecto]()

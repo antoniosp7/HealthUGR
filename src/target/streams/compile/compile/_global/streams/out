@@ -1,0 +1,4 @@
+[0m[[0m[31merror[0m] [0m[0m/home/antonio/Documentos/CC/HealthUGR/src/Record.scala:2:8: not found: object Exercise[0m[0J
+[0m[[0m[31merror[0m] [0m[0mimport Exercise.Exercise[0m[0J
+[0m[[0m[31merror[0m] [0m[0m       ^[0m[0J
+[0m[[0m[31merror[0m] [0m[0mone error found[0m[0J
