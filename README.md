@@ -48,21 +48,20 @@ Si adaptamos esta arquitectura a nuestro problema nos quedaría dividido en dos 
 
 ## Clases
 
- - Alimento:
+ - [Alimento](https://github.com/antoniosp7/HealthUGR/blob/master/src/Food.scala) :
     - Calorías x 100 gramos
     - Descripción
     - Nutrientes
- - Ejercicio:
+ - [Ejercicio](https://github.com/antoniosp7/HealthUGR/blob/master/src/Exercise.scala) :
    - Descripción
    - Calorías quemadas por hora
- - Usuario:
+ - [Usuario](https://github.com/antoniosp7/HealthUGR/blob/master/src/User.scala) :
    - Nombre
    - Peso
    - Estatura
    - Género
    - Edad
-   - Contraseña
-  - Registro diario:
+  - [Registro diario](https://github.com/antoniosp7/HealthUGR/blob/master/src/Record.scala) :
     - Lista de alimentos
     - Lista de ejercicios
     - Calorías consumidas
