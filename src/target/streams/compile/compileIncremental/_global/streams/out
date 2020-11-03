@@ -1,20 +1,65 @@
 [0m[[0m[0mdebug[0m] [0m[0m[zinc] IncrementalCompile -----------[0m[0J
 [0m[[0m[0mdebug[0m] [0m[0mIncrementalCompile.incrementalCompile[0m[0J
-[0m[[0m[0mdebug[0m] [0m[0mprevious = Stamps for: 0 products, 0 sources, 0 libraries[0m[0J
-[0m[[0m[0mdebug[0m] [0m[0mcurrent source = Set(${BASE}/Record.scala, ${BASE}/User.scala, ${BASE}/Exercise.scala, ${BASE}/Food.scala)[0m[0J
-[0m[[0m[0mdebug[0m] [0m[0m> initialChanges = InitialChanges(Changes(added = Set(${BASE}/Food.scala, ${BASE}/User.scala, ${BASE}/Record.scala, ${BASE}/Exercise.scala), removed = Set(), changed = Set(), unmodified = ...),Set(),Set(),API Changes: Set())[0m[0J
-[0m[[0m[0mdebug[0m] [0m[0mFull compilation, no sources in previous analysis.[0m[0J
-[0m[[0m[0mdebug[0m] [0m[0mall 4 sources are invalidated[0m[0J
-[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: [0m[0J
-[0m[[0m[0mdebug[0m] [0m[0mRecompiling all sources: number of invalidated sources > 50.0% of all sources[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0mprevious = Stamps for: 4 products, 4 sources, 1 libraries[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0mcurrent source = Set(${BASE}/Food.scala, ${BASE}/User.scala, ${BASE}/Request.scala, ${BASE}/Record.scala, ${BASE}/Exercise.scala)[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m> initialChanges = InitialChanges(Changes(added = Set(${BASE}/Request.scala), removed = Set(), changed = Set(${BASE}/Record.scala), unmodified = ...),Set(),Set(),API Changes: Set())[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0mInitial source changes:[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	removed: Set()[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	added: Set(${BASE}/Request.scala)[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	modified: Set(${BASE}/Record.scala)[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0mInvalidated products: Set()[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0mExternal API changes: API Changes: Set()[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0mModified binary dependencies: Set()[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0mInitial directly invalidated classes: Set(Record)[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0mSources indirectly invalidated by:[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	product: Set()[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	binary dep: Set()[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	external source: Set()[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0mAll initially invalidated classes: Set(Record)[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0mAll initially invalidated sources:Set(${BASE}/Request.scala, ${BASE}/Record.scala)[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: Record[0m[0J
 [0m[[0m[0mdebug[0m] [0m[0mcompilation cycle 1[0m[0J
-[0m[[0m[0minfo[0m] [0m[0mcompiling 4 Scala sources to /home/antonio/Documentos/CC/HealthUGR/src/target/scala-2.12/classes ...[0m[0J
+[0m[[0m[0minfo[0m] [0m[0mcompiling 2 Scala sources to /home/antonio/Documentos/CC/HealthUGR/src/target/scala-2.12/classes ...[0m[0J
 [0m[[0m[0mdebug[0m] [0m[0mGetting org.scala-sbt:compiler-bridge_2.12:1.4.1:compile for Scala 2.12.12[0m[0J
-[0m[[0m[0mdebug[0m] [0m[0m[zinc] Running cached compiler 4ede8d99 for Scala compiler version 2.12.12[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] Running cached compiler 15340457 for Scala compiler version 2.12.12[0m[0J
 [0m[[0m[0mdebug[0m] [0m[0m[zinc] The Scala compiler is invoked with:[0m[0J
 [0m[[0m[0mdebug[0m] [0m[0m	-bootclasspath[0m[0J
 [0m[[0m[0mdebug[0m] [0m[0m	/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jfr.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/classes:/home/antonio/.sbt/boot/scala-2.12.12/lib/scala-library.jar[0m[0J
 [0m[[0m[0mdebug[0m] [0m[0m	-classpath[0m[0J
 [0m[[0m[0mdebug[0m] [0m[0m	/home/antonio/Documentos/CC/HealthUGR/src/target/scala-2.12/classes[0m[0J
-[0m[[0m[0mdebug[0m] [0m[0mScala compilation took 1.954983832 s[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0mInvalidating (transitively) by inheritance from Record...[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: Record[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0mInvalidated by transitive inheritance dependency: Set(Record)[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0mChange NamesChange(Record,ModifiedNames(changes = UsedName(==,[Default]), UsedName(getClass,[Default]), UsedName(finalize,[Default]), UsedName(equals,[Default]), UsedName(isInstanceOf,[Default]), UsedName(toString,[Default]), UsedName(##,[Default]), UsedName(food,[Default]), UsedName(clone,[Default]), UsedName(exercises,[Default]), UsedName(caloriesConsumed,[Default]), UsedName(wait,[Default]), UsedName(synchronized,[Default]), UsedName(notifyAll,[Default]), UsedName(Record,[Default]), UsedName(asInstanceOf,[Default]), UsedName(eq,[Default]), UsedName(ne,[Default]), UsedName(hashCode,[Default]), UsedName(notify,[Default]), UsedName(!=,[Default]), UsedName(caloriesSpent,[Default]), UsedName(Record;init;,[Default]))) invalidates 1 classes due to The Record has the following regular definitions changed:[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	UsedName(==,[Default]), UsedName(getClass,[Default]), UsedName(finalize,[Default]), UsedName(equals,[Default]), UsedName(isInstanceOf,[Default]), UsedName(toString,[Default]), UsedName(##,[Default]), UsedName(food,[Default]), UsedName(clone,[Default]), UsedName(exercises,[Default]), UsedName(caloriesConsumed,[Default]), UsedName(wait,[Default]), UsedName(synchronized,[Default]), UsedName(notifyAll,[Default]), UsedName(Record,[Default]), UsedName(asInstanceOf,[Default]), UsedName(eq,[Default]), UsedName(ne,[Default]), UsedName(hashCode,[Default]), UsedName(notify,[Default]), UsedName(!=,[Default]), UsedName(caloriesSpent,[Default]), UsedName(Record;init;,[Default]).[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m  > by transitive inheritance: Set(Record)[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m  > [0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m  > [0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m        [0m[0J
+[0m[[0m[0mdebug[0m] [0m[0mInvalidating (transitively) by inheritance from request.Request...[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: request.Request[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0mInvalidated by transitive inheritance dependency: Set(request.Request)[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0mChange NamesChange(request.Request,ModifiedNames(changes = UsedName(==,[Default]), UsedName(getClass,[Default]), UsedName(finalize,[Default]), UsedName(equals,[Default]), UsedName(isInstanceOf,[Default]), UsedName(toString,[Default]), UsedName(##,[Default]), UsedName(Request,[Default]), UsedName(request;Request;init;,[Default]), UsedName(clone,[Default]), UsedName(wait,[Default]), UsedName(synchronized,[Default]), UsedName(notifyAll,[Default]), UsedName(asInstanceOf,[Default]), UsedName(eq,[Default]), UsedName(ne,[Default]), UsedName(hashCode,[Default]), UsedName(notify,[Default]), UsedName(!=,[Default]), UsedName(description,[Default]), UsedName(user,[Default]))) invalidates 1 classes due to The request.Request has the following regular definitions changed:[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	UsedName(==,[Default]), UsedName(getClass,[Default]), UsedName(finalize,[Default]), UsedName(equals,[Default]), UsedName(isInstanceOf,[Default]), UsedName(toString,[Default]), UsedName(##,[Default]), UsedName(Request,[Default]), UsedName(request;Request;init;,[Default]), UsedName(clone,[Default]), UsedName(wait,[Default]), UsedName(synchronized,[Default]), UsedName(notifyAll,[Default]), UsedName(asInstanceOf,[Default]), UsedName(eq,[Default]), UsedName(ne,[Default]), UsedName(hashCode,[Default]), UsedName(notify,[Default]), UsedName(!=,[Default]), UsedName(description,[Default]), UsedName(user,[Default]).[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m  > by transitive inheritance: Set(request.Request)[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m  > [0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m  > [0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m        [0m[0J
+[0m[[0m[0mdebug[0m] [0m[0mInvalidating (transitively) by inheritance from record.Record...[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: record.Record[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0mInvalidated by transitive inheritance dependency: Set(record.Record)[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0mChange NamesChange(record.Record,ModifiedNames(changes = UsedName(==,[Default]), UsedName(getClass,[Default]), UsedName(finalize,[Default]), UsedName(equals,[Default]), UsedName(isInstanceOf,[Default]), UsedName(toString,[Default]), UsedName(##,[Default]), UsedName(food,[Default]), UsedName(clone,[Default]), UsedName(exercises,[Default]), UsedName(caloriesConsumed,[Default]), UsedName(wait,[Default]), UsedName(synchronized,[Default]), UsedName(notifyAll,[Default]), UsedName(Record,[Default]), UsedName(asInstanceOf,[Default]), UsedName(eq,[Default]), UsedName(ne,[Default]), UsedName(hashCode,[Default]), UsedName(notify,[Default]), UsedName(!=,[Default]), UsedName(record;Record;init;,[Default]), UsedName(caloriesSpent,[Default]))) invalidates 1 classes due to The record.Record has the following regular definitions changed:[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	UsedName(==,[Default]), UsedName(getClass,[Default]), UsedName(finalize,[Default]), UsedName(equals,[Default]), UsedName(isInstanceOf,[Default]), UsedName(toString,[Default]), UsedName(##,[Default]), UsedName(food,[Default]), UsedName(clone,[Default]), UsedName(exercises,[Default]), UsedName(caloriesConsumed,[Default]), UsedName(wait,[Default]), UsedName(synchronized,[Default]), UsedName(notifyAll,[Default]), UsedName(Record,[Default]), UsedName(asInstanceOf,[Default]), UsedName(eq,[Default]), UsedName(ne,[Default]), UsedName(hashCode,[Default]), UsedName(notify,[Default]), UsedName(!=,[Default]), UsedName(record;Record;init;,[Default]), UsedName(caloriesSpent,[Default]).[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m  > by transitive inheritance: Set(record.Record)[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m  > [0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m  > [0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m        [0m[0J
+[0m[[0m[0mdebug[0m] [0m[0mNew invalidations:[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: [0m[0J
+[0m[[0m[0mdebug[0m] [0m[0mPreviously invalidated, but (transitively) depend on new invalidations:[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0mFinal step, transitive dependencies:[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	Set()[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0mNo classes were invalidated.[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0mScala compilation took 1.917017881 s[0m[0J
 [0m[[0m[0mdebug[0m] [0m[0mdone compiling[0m[0J
