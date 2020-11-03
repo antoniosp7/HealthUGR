@@ -33,6 +33,10 @@ Si adaptamos esta arquitectura a nuestro problema nos quedaría dividido en dos 
     - Lista de ejercicios
     - Calorías consumidas
     - Calorías gastadas
+  - [Petición](https://github.com/antoniosp7/HealthUGR/blob/master/src/Request.scala) :
+    - Usuario
+    - Descripción
+
 
 En la siguiente imagen se muestra el resultado de ejecutar el compilado del código con la herramienta sbt.
 
