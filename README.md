@@ -11,7 +11,7 @@ Si adaptamos esta arquitectura a nuestro problema nos quedaría dividido en dos 
 
 
 ## Planificación
-  La planificación del proyecto se encuntra en el siguiente [documento](https://github.com/antoniosp7/HealthUGR/blob/master/docs/Planning.md).
+  La planificación del proyecto se encuentra en el siguiente [documento](https://github.com/antoniosp7/HealthUGR/blob/master/docs/Planning.md).
 
 ## Clases
 
