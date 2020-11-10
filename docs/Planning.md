@@ -1,55 +1,52 @@
 # Planificación del proyecto
 
-Para la planificación del proyecto se ha dividido en cuatro milestones, los cuales engloban las funcionalidades del sistema desde el punto de vista de las historias de usuario. Los tests se irán realizando conforme se va realizando la funcionalidad. Durará en total 5 semanas. Las historias de usuario vendrán ordenadas dentro de los milestones conforme se realizarán.
+Para la planificación de este proyecto se ha hecho una división inicial de tres Milestones, estos han sido divididos con la finalidad de tener al final de cada uno un conjunto de funcionalidades que formen una parte del proyecto, por ejemplo para el primero se buscar tener un producto mínimo viable enfocado en el usuario.
 
-## Milestone 1 - Añadir datos al sistema por parte del administrador
-
-- Duración: 1 semana
-
-En este primer milestone se realizará las funciones de añadir tanto alimentos como ejercicios por parte del administrador, ya que necesitamos que haya ya datos en el sistema para que un usuario registre los datos del día.
-
-[HU1 - Añadir nueva comida al sistema](https://github.com/antoniosp7/HealthUGR/issues/7)
-
-[HU2 - Añadir nuevo ejercicio al sistema](https://github.com/antoniosp7/HealthUGR/issues/8)
-
-## Milestone 2 - Añadir datos diarios por parte del usuario
-
-- Duración: 1 semana
-
-En este milestone se realizará la funcionalidad por la cual un usario podrá registrar tanto el alimento ingerido al día como registrar el ejercicio, a su vez se hará la función de crear un perfil asociado al usuario con sus respectivos datos.
-
-[HU6 - Crear perfil](https://github.com/antoniosp7/HealthUGR/issues/15)
-
-[HU5 - Registrar comida ingerida](https://github.com/antoniosp7/HealthUGR/issues/11)
-
-[HU7 - Registrar ejercicio realizado](https://github.com/antoniosp7/HealthUGR/issues/16)
-
-## Milestone 3 - Solicitudes
+## Milestone 1 - Funcionalidad objetivo del usuario
 
 - Duración: 2 semanas
 
-Aquí se reaizará la funcionalidad relacionada con las solicitudes. Habrá casos en los que un usuario haya ingerido un alimento o realizado un ejercicio que no se encuentra en el sistema, para no dejar libertad total a los usuarios de insertar datos en el sistema, tendrán que hacer una solicitud al adminsitrador del sistema para que apruebe el nuevo alimento o ejercicio.
+Como se ha dicho anteiormente el objetivo de este Milestone es obtener un producto mínimo viable que pueda ser mostrado, en el se realizará la funcionalidad mínima del usuario la cual es poder registrar los nutrientes adquiridos y el ejercicio realizado diariamente y a su vez obtener la información asociada a cada uno diariamente y el balance que conllevan los dos.
 
-[HU9 - Solicitar una nueva comida](https://github.com/antoniosp7/HealthUGR/issues/18)
+[HU3 - Ver el registro de nutrientes diarios](https://github.com/antoniosp7/HealthUGR/issues/9)
 
-[HU10 - Solicitar un nuevo ejercicio](https://github.com/antoniosp7/HealthUGR/issues/19)
+[HU4 - Ver el registro diario de ejercicios ](https://github.com/antoniosp7/HealthUGR/issues/10)
 
-[HU11 - Aceptar una petición de nueva comida](https://github.com/antoniosp7/HealthUGR/issues/20)
+[HU5 - Registrar la ingesta de alimentos](https://github.com/antoniosp7/HealthUGR/issues/11)
 
-[HU12 - Aceptar una petición de nuevo ejercicio](https://github.com/antoniosp7/HealthUGR/issues/21)
+[HU7 - Registrar el ejercicio realizado](https://github.com/antoniosp7/HealthUGR/issues/16)
 
-[HU13 - Denegar una solicitud de nueva comida](https://github.com/antoniosp7/HealthUGR/issues/22)
+[HU8 - Ver registro del día](https://github.com/antoniosp7/HealthUGR/issues/17)
 
-[HU14 - Denegar una petición de nuevo ejercicio](https://github.com/antoniosp7/HealthUGR/issues/23)
 
-## Milestone 4 - Registros 
+## Milestone 2 - Creación de perfiles y funcionalidad de poblado del sistema por parte del administrador
 
 - Duración: 1 semana
 
-Por último tras tener los alimentos y ejercicios de cada usuario del día, se podrán crear las estadísticas de cada uno de ellos, como por ejemplo calorías aportadas, proteínas ingeridad, calorias consumidas...
+En este milestone se desarrollará la funcionalidad del administrador enfocada a el registro de nuevos ejercicios y alimentos y la funcionalidad de crear un perfil para los usuarios.
 
-[HU3 - Ver el registro diario de nutrientes](https://github.com/antoniosp7/HealthUGR/issues/9)
 
-[HU4 - Ver registro diario de ejercicio](https://github.com/antoniosp7/HealthUGR/issues/10)
+[HU1 - Añadir un nuevo alimento al sistema](https://github.com/antoniosp7/HealthUGR/issues/7)
 
-[HU8 - Ver registro conjunto diario](https://github.com/antoniosp7/HealthUGR/issues/17)
+[HU2 - Añadir un nuevo ejercicio](https://github.com/antoniosp7/HealthUGR/issues/8)
+
+[HU6 - Crear un perfil](https://github.com/antoniosp7/HealthUGR/issues/15)
+
+
+## Milestone 3 - Funcionalidad vinculada a solicitudes 
+
+- Duración: 1 semana
+
+Por último se realizará la funcionalidad asociada a las peticiones de usuarios de nuevos alimentos o ejercicios dentro del sistema.
+
+[HU9 - Solicitar un nuevo alimento](https://github.com/antoniosp7/HealthUGR/issues/18)
+
+[HU10 - Solicitar un nuevo ejercicio](https://github.com/antoniosp7/HealthUGR/issues/19)
+
+[HU11 - Aceptar una solicitud (alimento)](https://github.com/antoniosp7/HealthUGR/issues/20)
+
+[HU12 - Aceptar una solicitud (ejercicio)](https://github.com/antoniosp7/HealthUGR/issues/21)
+
+[HU13 - Rechazar una petición (alimento)](https://github.com/antoniosp7/HealthUGR/issues/22)
+
+[HU14 - Rechazar una petición (ejercicio)](https://github.com/antoniosp7/HealthUGR/issues/23)
