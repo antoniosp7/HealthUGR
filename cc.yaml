@@ -1,6 +1,20 @@
 entidad:
-  - src/Exercise.scala
-  - src/Food.scala
-  - src/Record.scala
-  - src/User.scala
+  - src/main/scala/classes/Exercise.scala
+  - src/main/scala/classes/Food.scala
+  - src/main/scala/classes/Record.scala
+  - src/main/scala/classes/Request.scala
+  - src/main/scala/classes/User.scala
+
+lenguaje:
+
+  - scala
+
+test:
+
+  - src/test/scala/foodTest.scala
+  - src/test/scala/recordTest.scala
+
+fichero_tareas:
+
+  - makefile
 
