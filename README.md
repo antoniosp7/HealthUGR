@@ -13,6 +13,10 @@ Para el marco de pruebas se tuvieron en cuenta dos herramientas mencionadas ante
 
 ScalaTest es la herramienta más popular dentro del campo del 'testeo' de código en Scala sin embargo se ha tenido en cuenta MUnit ya que a pesar de ser nueva cuenta ya con numerosos seguidores que la respaldan y a su vez al final de esta asignatura se nos evalua la originalidad por lo que me planteé en este caso salir de lo clásico, a su vez munit comparte característiscas con jUnit que es una librería con la que ya he trabajado anteriormente y los enfoques similares que poseen las dos me ayuda a iniciarme con esta nueva librería.
 
+Tras el estudio de los dos llegué a la conclusión de que ScalaTest es más potente y completa pero a la vez más compleja, por lo que creo que para el tamaño y complejidad de este proyecto es más adecuado usar MUnit ya que con la funcionalidad que posee debería bastar para satisfacer las necesidades del proyecto.
+
+El estilo usado será FunSuite que también existe en ScalaTest, a su vez MUnit nos permite usar tanto TDD como BDD, como podemos ver [aquí](https://github.com/practicalmeteor/meteor-munit) con el plugin meteor-unit, por lo que tenemos casi las mismas opciones para los dos, aún así me decantaré por probar MUnit ya que creo que es más sencillo y sobre todo por lo comentado anteriormente respecto a que comparte muchas características con JUnit.
+
 ## Biblioteca de aserciones
 
 Para la biblioteca de aserciones hemos considerado tres de ellas, la éstandar que posee el propio lenguaje scala, la que nos proporciona la herramienta de 'testing' ScalaTest y la que nos proporciona la herramienta MUnit que fue lanzada este año.
