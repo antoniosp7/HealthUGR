@@ -10,7 +10,7 @@ class recordTest extends munit.FunSuite {
   
   var record = new Record()
 
-  var res = recordController.addFoodToRecord(record,food)
+  var res = recordController.addFoodToRecord(record,food,120)
 
   test("addFoodtoRecord1") {
     assert(clue(record.food.getOrElse(food,0)) == clue(45))
@@ -22,6 +22,10 @@ class recordTest extends munit.FunSuite {
 
   test("addFoodtoRecord3") {
     assert(clue(record.food.size) == clue(1))
+  }
+
+   test("addFoodtoRecordDailyCaloriesConsumed") {
+    assert(clue(record.caloriesConsumed) == clue(54))
   }
     
   
