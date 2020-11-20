@@ -4,6 +4,8 @@ Lo principal para la planificacion de un proyecto es tener claro que queremos de
 
 Una vez tenemos claro que queremos hacer nos queda planificar en milestones esto, tenemos que tener en cuenta que cada Milestone debe contener un producto mínimo viable o MVP que se puede decir que es un conjunto de funcionalidades mínimo pero que sea relevante en el proyecto. 
 
+En los milestones planificados veremos que apuntan a historias de usuario pero no debemos olvidar que estamos ante un proyecto de desarrollo por lo que estas historias de usuario apuntarán o estarán relacionadas con tareas enfocadas al ámbito del desarrollo que se encuentran enlazadas dentro de la historia de usuario.
+
 Los milestones mostrados se realizarán sucesivamemte, es decir no se empezará uno sin terminar el anterior. La planificación inicial quedaría de esta manera:
 
 ## Milestone 1 
